@@ -1,0 +1,24 @@
+.card {
+    background-color: var(--cinza);
+    box-shadow: 4px 2px 10px rgb(114, 114, 114);
+}
+
+.tituloEFavorito {
+    padding: 1.5rem;
+    width: 282px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.tituloEFavorito img {
+    cursor: pointer;
+}
+
+.titulo {
+    color: var(--preto);
+    font-weight: 700;
+    font-size: 1.125rem;
+}

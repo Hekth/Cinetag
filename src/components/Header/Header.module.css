@@ -1,0 +1,18 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--preto);
+    padding: 1.25rem;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.header img {
+    width: 60%;
+    min-width: 150px;
+    max-width: 250px;
+}
